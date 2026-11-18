@@ -2,286 +2,216 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Mi Actividad Web</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto de Matemáticas - Fórmulas y Apuntes</title>
   
-  <style>
-
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #080808;
-      color: #131314;
-    }
-
-    header {
-      background-color: #090909;
-      color: rgb(251, 245, 245);
-      text-align: center;
-      padding: 20px;
-    }
-
-    nav {
-      background-color: #252525;
-      text-align: center;
-    }
-
-    nav a {
-      color: rgb(89, 90, 92);
-      padding: 10px 15px;
-      text-decoration: none;
-      display: inline-block;
-    }
-
-    nav a:hover {
-      background-color: #18dcb5;
-    }
-
-    main {
-      width: 80%;
-      margin: 20px auto;
-    }
-
-    section {
-      background-color: rgb(185, 173, 173);
-      padding: 20px;
-      margin-bottom: 20px;
-      border: 2px solid #5506f4;
-    }
-
-    
-
-   
-   
-    form {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-
-label {display: block;}
-
-input[type=text], select {
-  width: 100%;
-  padding: 12px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-input[type=submit] {
-  width: 100%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-    pre {
-      background-color: #eee;
-      padding: 10px;
-      border: 1px solid #ddd;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 10px;
-    }
-
-    th, td {
-      border: 1px solid #ccc;
-      padding: 8px;
-      text-align: left;
-    }
-
-    th {
-      background-color: #eee;
-    }
-
-    button {
-      background-color: #2c3e50;
-      color: white;
-      border: none;
-      padding: 8px 12px;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: #34495e;
-    }
-
-    footer {
-      background-color: #2c3e50;
-      color: white;
-      text-align: center;
-      padding: 10px;
-    }
-  </style>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header>
-    <h1>Guía de HTML, CSS y JavaScript</h1>
-    <p>Notas y apuntes de clase</p>
+    <h1>Formulas y Apuntes de Matemáticas</h1>
+    <p>Proyecto escolar - 5to Semestre</p>
   </header>
 
   <nav>
-    <a href="#semantica">Semántica</a>
-    <a href="#texto">Texto</a>
-    <a href="#listas">Listas</a>
+    <a href="#semantica">Estructura</a>
+    <a href="#algebra">Álgebra</a>
+    <a href="#listas">Fórmulas</a>
     <a href="#tablas">Tablas</a>
-    <a href="#multimedia">Multimedia</a>
-    <a href="#formularios">Formularios</a>
-    <a href="#css">CSS</a>
+    <a href="#multimedia">Video</a>
+    <a href="#imagenes">Gráficas</a>
+    <a href="#formularios">Calculadora / Form</a>
     <a href="#js">JavaScript</a>
   </nav>
+
   <main>
 
     <section id="semantica">
-      <h2>1. Etiquetas semánticas de HTML5</h2>
-      <p>Sirven para estructurar la página web según la función de cada parte</p>
+      <h2>1. Estructura y Elementos Semánticos</h2>
+      <p>Organización general de la página web mediante etiquetas semánticas de HTML5:</p>
       
       <table>
-        <tr>
-          <th>Etiqueta</th>
-          <th>Uso</th>
-        </tr>
-        <tr>
-          <td>&lt;header&gt;</td>
-          <td>Encabezado principal</td>
-        </tr>
-        <tr>
-          <td>&lt;nav&gt;</td>
-          <td>Menú con enlaces</td>
-        </tr>
-        <tr>
-          <td>&lt;main&gt;</td>
-          <td>Contenido principal</td>
-        </tr>
-        <tr>
-          <td>&lt;section&gt;</td>
-          <td>Sección de contenido</td>
-        </tr>
-        <tr>
-          <td>&lt;footer&gt;</td>
-          <td>Pie de página</td>
-        </tr>
+        <thead>
+          <tr>
+            <th>Etiqueta</th>
+            <th>Uso en el Proyecto</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>&lt;header&gt;</td>
+            <td>Título principal de matemáticas</td>
+          </tr>
+          <tr>
+            <td>&lt;nav&gt;</td>
+            <td>Menú de navegación entre temas</td>
+          </tr>
+          <tr>
+            <td>&lt;main&gt;</td>
+            <td>Contenedor central de los contenidos</td>
+          </tr>
+          <tr>
+            <td>&lt;section&gt;</td>
+            <td>Bloques de apartados temáticos</td>
+          </tr>
+          <tr>
+            <td>&lt;footer&gt;</td>
+            <td>Pie de página institucional</td>
+          </tr>
+        </tbody>
       </table>
     </section>
 
-    <section id="texto">
-      <h2>2. Texto y Enlaces</h2>
-      <p>Uso de párrafos, texto resaltado y enlaces a otras páginas:</p>
+    <section id="algebra">
+      <h2>2. Expresiones y Enlaces</h2>
+      <p>Uso de formato de texto, negritas para variables y enlaces de consulta:</p>
       
-      <pre><code>&lt;p&gt;Este es un párrafo con <br> &lt;strong&gt;negrita&lt;/strong&gt;<br> y &lt;em&gt;cursiva&lt;/em&gt;.&lt;/p&gt;
-&lt;a href="https://www.google.com"<br> target="_blank"&gt;Ir a Google&lt;/a&gt;</code></pre>
-
-      <p>Ejemplo: Este es un párrafo con <strong>negrita</strong> y <em>cursiva</em>.</p>
-      <a href="https://www.google.com" target="_blank">Enlace a Google</a>
+      <p>Ejemplo: La ecuación de la recta se define como <strong>y = mx + b</strong>, donde <em>m</em> es la pendiente.</p>
+      <a href="https://es.khanacademy.org/math" target="_blank" class="text-primary">Ir a Khan Academy de Matemáticas</a>
     </section>
 
     <section id="listas">
-      <h2>3. Listas</h2>
-      <p>Ejemplo de lista desordenada y ordenada:</p>
+      <h2>3. Listas de Fórmulas y Pasos</h2>
       
-      <h3>Lista no ordenada</h3>
+      <h3>Pasos para resolver ecuaciones de primer grado (&lt;ol&gt;)</h3>
+      <ol>
+        <li>Despejar términos con incógnita de un lado.</li>
+        <li>Agrupar los números independientes del otro lado.</li>
+        <li>Despejar la variable dividiendo el resultado.</li>
+      </ol>
+
+      <h3>Áreas de figuras geométricas (&lt;ul&gt;)</h3>
       <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
+        <li>Cuadrado: Lado por lado (L²)</li>
+        <li>Triángulo: (Base por altura) / 2</li>
+        <li>Círculo: Pi por radio al cuadrado (πr²)</li>
       </ul>
 
-      <h3>Lista ordenada</h3>
-      <ol>
-        <li>Abrir el editor</li>
-        <li>Escribir el código</li>
-        <li>Guardar archivo</li>
-      </ol>
+      <h3>Glosario de términos (&lt;dl&gt;)</h3>
+      <dl>
+        <dt>Variable</dt>
+        <dd>Símbolo que representa un valor desconocido (ej. x, y).</dd>
+        <dt>Pendiente</dt>
+        <dd>Inclinación de una recta respecto al eje horizontal.</dd>
+      </dl>
     </section>
 
     <section id="tablas">
-      <h2>4. Tablas</h2>
-      <p>Tabla básica para organizar datos:</p>
+      <h2>4. Tabla de Valores (Tabulación)</h2>
+      <p>Relación de coordenadas para graficar la función y = 2x:</p>
 
       <table>
-        <tr>
-          <th>Materia</th>
-          <th>Horario</th>
-        </tr>
-        <tr>
-          <td>Programación Web</td>
-          <td>12:00 - 14:00</td>
-        </tr>
-        <tr>
-          <td>Bases de Datos</td>
-          <td>14:00 - 16:00</td>
-        </tr>
+        <thead>
+          <tr>
+            <th>x (Entrada)</th>
+            <th>y = 2x (Salida)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>6</td>
+          </tr>
+        </tbody>
       </table>
     </section>
 
     <section id="multimedia">
-      <h2>5. Multimedia</h2>
-      <p>Etiqueta para agregar video con controles:</p>
-      <pre><code>&lt;video controls width="320"&gt;
-  &lt;source src="Video.mp4" type="Video/mp4"&gt;
-&lt;/video&gt;</code></pre>
+      <h2>5. Video Explicativo</h2>
+      <p>Video de apoyo sobre resolución de problemas matemáticos:</p>
+      
+      <video controls width="100%" style="max-width: 500px;">
+        <source src="mate.mp4" type="video/mp4">
+        Tu navegador no soporta el reproductor de video.
+      </video>
+    </section>
+
+    <section id="imagenes">
+      <h2>6. Gráficas y Carrusel de Geometría</h2>
+      <p>Imágenes ilustrativas de apoyo visual:</p>
+      
+      <div id="demoCarousel" class="carousel slide my-3" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demoCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demoCarousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demoCarousel" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#demoCarousel" data-bs-slide-to="3"></button>
+        </div>
+        
+        <div class="carousel-inner rounded shadow">
+          <div class="carousel-item active">
+            <img src="g4.jpeg" alt="Gráfica de funciones" class="d-block w-100" style="max-height: 400px; object-fit: cover;">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded"></div>
+          </div>
+          <div class="carousel-item">
+            <img src="g3.jpeg" alt="Triángulo rectángulo" class="d-block w-100" style="max-height: 400px; object-fit: cover;">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded"></div>
+          </div>
+          <div class="carousel-item">
+            <img src="g2.jpeg" alt="Plano cartesiano" class="d-block w-100" style="max-height: 400px; object-fit: cover;">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded"></div>
+          </div>
+           <div class="carousel-item">
+            <img src="g1.jpeg" alt=" plantilla de perpectiva" class="d-block w-100" style="max-height: 400px; object-fit: cover;">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded"></div>
+          </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#demoCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demoCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
     </section>
 
     <section id="formularios">
-      <h2>6. Formularios</h2>
-      <p>Formulario con diseño y estilo CSS</p>
+      <h2>7. Registro de Ejercicios (Formulario)</h2>
+      <p>Envía tus datos para registrar el ejercicio resuelto:</p>
 
-<form onsubmit="event.preventDefault();alert('Formulario enviado correctamente');">
-  <label for="fname">primer nombre</label>
-  <input type="text" id="fname" name="firstname" placeholder="tu nombre..">
+      <form onsubmit="alert('¡Ejercicio registrado correctamente en el sistema!');">
+        <label for="fname">Nombre del alumno:</label>
+        <input type="text" id="fname" name="firstname" placeholder="Tu nombre.." required>
 
-  <label for="lname">Apellido</label>
-  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="lname">Número de lista:</label>
+        <input type="text" id="lname" name="lastname" placeholder="Tu número.." required>
 
-  <label for="country">Pais</label>
-  <select id="country" name="country">
-    <option value="australia">Australia</option>
-    <option value="canada">Canada</option>
-    <option value="usa">USA</option>
-  </select>
+        <label for="country">Bloque de estudio:</label>
+        <select id="country" name="country">
+          <option value="algebra">Álgebra</option>
+          <option value="geometria">Geometría Analítica</option>
+          <option value="calculo">Cálculo</option>
+        </select>
 
-  <input type="submit" value="Submit">
-</form>
-</section>
-
-
-    <section id="css">
-      <h2>7. CSS</h2>
-      <p>Reglas sencillas para darle color y formato a la página:</p>
-      <pre><code>body {
-  font-family: Arial, sans-serif;
-  color: #333;
-}</code></pre>
+        <input type="submit" value="Guardar Ejercicio">
+      </form>
     </section>
 
     <section id="js">
-      <h2>8. JavaScript</h2>
-      <p>Ejemplo de función interactiva con un botón:</p>
-      <pre><code>alert("Hola!");</code></pre>
-      <br>
-      <button onclick="alert('¡Hola!')">Hacer clic</button>
+      <h2>8. JavaScript Básico</h2>
+      <p>Prueba de interacción y alerta matemática:</p>
+      <button class="btn-custom" onclick="alert('¡Comprobación correcta! 2 + 2 = 4')">Comprobar Operación</button>
     </section>
 
   </main>
 
   <footer>
-    <p>Mi pagina web</p>
+    <p>Proyecto de Matemáticas - CBTIS</p>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
